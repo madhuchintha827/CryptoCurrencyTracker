@@ -1,0 +1,60 @@
+/* Write your CSS code here */
+cryptocurrency-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.currency-logo {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.currency-name {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.usd-and-euro-values-container {
+  display: flex;
+  align-items: center;
+}
+
+.currency-value {
+  text-align: right;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 500;
+  width: 52px;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .currency-value {
+    font-size: 15px;
+    margin-left: 25px;
+  }
+  .currency-name {
+    font-size: 15px;
+  }
+  .currency-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+}
